@@ -45,11 +45,11 @@ export default {
     width: 355px;
     background-color: #fff;
     text-align: left;
-    margin: 20px;
     box-shadow: 0 20px 20px rgba(0,0,0,.08);
     transition: all 250ms cubic-bezier(.02, .01, .47, 1);
     color: #4B4F56;
     cursor: pointer;
+    max-width: 100%;
     &__hero {
         line-height: 0;
         height: 250px;
@@ -72,6 +72,7 @@ export default {
         height: auto;
         transform: translate(-50%, -50%);
         transition: 0.25s;
+        opacity: 0;
     }
     &__body {
         padding: 20px;
