@@ -2,7 +2,7 @@
     <div class="card" @mouseover="startVideo()" @mouseout="stopVideo()">
         <div class="card__hero">
             <img class="card__image" :src="poster" alt="">
-            <video class="card__video" loop="true" muted="true" ref="video">
+            <video class="card__video" loop="true" muted="true" ref="video" playsinline="true">
                 <source :src="videoWebm" type="video/webm">
                 <source :src="videoMp4" type="video/mp4">
             </video>
