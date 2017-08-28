@@ -5,6 +5,7 @@
             <li>
                 <router-link to="/select">Select</router-link>
                 <router-link to="/slidedown">SlideDown</router-link>
+                <router-link to="/card">Card</router-link>
             </li>-
         </ul>
     </div>
